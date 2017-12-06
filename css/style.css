@@ -1,0 +1,181 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'Roboto',Sans-serif!important;
+}
+a{
+	line-height: 27px;
+ }
+ a:hover{
+	 color: #999!important;
+ }
+ p{
+	 line-height: 30px;
+ }
+a:hover,a:focus{
+	text-decoration: none!important;
+ }
+
+.header{
+	width:100%;
+	height: 100vh;
+	background: #eee url('../img/hero.jpg');
+	position: relative;
+	float: left;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.download{
+	width: 100%;
+	height: 85px;
+	background: transparent;
+	position: absolute;
+	top:50%;
+	margin-top: -50px;
+	text-align: center;	
+}
+.spotify{
+	border: 0px;
+	padding: 17px 48px;
+	background: #1db954;
+	color: #fff;
+	font-size: 18px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	border-radius: 500px;
+	letter-spacing: 2px;
+	border: 2px solid #1db954;
+	text-transform: uppercase;
+	position: relative;
+	top: 30px;
+   }
+
+   .spotify:hover{
+	border: 2px solid #097d32;
+	background: #097d32;
+	color: #FFF;
+   }
+   .fff{
+   	background: transparent;
+   	border: 4px solid #fff;
+   	color: #FFF;
+   	font-weight: bolder;
+   	
+   }
+   .fff:hover{
+   	background: #1db954;
+   	border: 4px solid #1db954;
+
+   }
+
+   h1{
+   	color: #1db954 !important;
+   }
+   .default{
+	   color: #1db954 !important;
+   }
+
+.content{
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+}
+.padd{
+	margin: 0px 10px;
+}
+/* for md screen*/
+.artist{
+	width: 100%;
+	height:450px;
+	background: transparent url('../img/artist.png');
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	top: -90px;
+	z-index: 9;
+	margin: 0 auto;
+}
+
+.layer{
+	width: 100%;
+	height:450px;
+	background: transparent ;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	transition: 0.3s !important;
+	-webkit-transition: 0.3s !important;
+	padding-top: 35%; 	
+}
+.patterns{
+	width: 100%;
+	height: 400px;
+	background: transparent url('../img/patterns.jpg');
+	background-position: bottom right;
+	background-size: cover;
+	position: relative;
+}
+.patterns div{
+	position: relative;
+	top: 45%;
+	text-transform: uppercase;
+	color:#fff!important;
+	text-align: center;
+}
+
+.more{
+	color: #1db954;
+	cursor: pointer;
+}
+.dash{
+	width: 7px;
+	height: 2px;
+	background: #ccc;
+	position: relative;
+	display: inline-block;
+	bottom: 4px;
+}
+.hr{
+	width: 100px;
+	height: 4px;
+	background: #333;
+	position: relative;
+	display: block;
+	top: 10px;
+}
+.set{
+	width: 100%;
+	height: 200px;
+	background: url('//www.scdn.co/i/home/all-devicesAB.svg');
+	position: relative;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-bottom: 40px;
+}
+footer{
+	width: 100%;
+	min-height:300px;
+	background: #000;
+	position: relative;
+	float: left; 
+	padding-top: 40px;
+	top: 40px;
+	color: #fff;
+}.icon{
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	border: 0;
+	background-image: url('../img/logo.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+/*mobile device*/
+@media screen and (max-width: 775px) {
+	.artist {
+	    display: none;
+	}
+ }
